@@ -1,0 +1,18 @@
+(*Change TrackingFrameSelection feature configuration/parameters*)
+VAR
+	ProcessParam_TrkFrmSelectionFeat : MC_BR_ProcessParam;
+	TrkFrmSelConfig : McCfgAxGrpFeatTrkFrmSelType;
+	TrkFrmSelConfig_Selectors : ARRAY[0..9] OF McAGFTFSSelSelType;
+END_VAR
+(*Selector 1*)
+VAR
+	TrkFrmSelConfig_Sel1Filters : ARRAY[0..1] OF McAGFTFSSFFltrFltrType;
+	TrkFrmSelConfig_Sel1Areas : ARRAY[0..1] OF McAGFTFSSFSFSAAreaType;
+	TrkFrmSelConfig_Sel1TrkPaths : ARRAY[0..1] OF McCfgReferenceType;
+END_VAR
+(*Selector 2*)
+VAR
+	TrkFrmSelConfig_Sel2Filters : ARRAY[0..1] OF McAGFTFSSFFltrFltrType;
+	TrkFrmSelConfig_Sel2Areas : ARRAY[0..1] OF McAGFTFSSFSFSAAreaType;
+	TrkFrmSelConfig_Sel2TrkPaths : ARRAY[0..1] OF McCfgReferenceType;
+END_VAR

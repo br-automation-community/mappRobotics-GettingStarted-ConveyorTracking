@@ -1,0 +1,37 @@
+(*Command interface*)
+VAR
+	Cmd : CommandType;
+END_VAR
+(*Robot and conveyor FBs*)
+VAR
+	MpRobot_0 : MpDelta4Axis;
+	MpRobot_1 : MpDelta4Axis;
+	MpRobotPar : MpDelta4AxisParType;
+	MpAxisConv1 : MpAxisBasic;
+	MpAxisConv2 : MpAxisBasic;
+	MpAxisParConv1 : MpAxisBasicParType;
+	MpAxisParConv2 : MpAxisBasicParType;
+END_VAR
+(*Update automatic TrackingFrame creation*)
+VAR
+	ProcessParam_AutCrtCond1TrkPath1 : MC_BR_ProcessParam;
+	ProcessParam_AutCrtCond1TrkPath2 : MC_BR_ProcessParam;
+	AutoCreateConditionParTrkPath1 : McCfgTrkPathAutCrtCondType;
+	AutoCreateConditionParTrkPath2 : McCfgTrkPathAutCrtCondType;
+	StatusTrackingPath1 : MC_BR_TrackingPathReadStatus;
+	StatusTrackingPath2 : MC_BR_TrackingPathReadStatus;
+END_VAR
+(*State machine*)
+VAR
+	State : StateType;
+END_VAR
+(*Grippers*)
+VAR
+	GripperRobot1OpenClose : BOOL;
+	GripperRobot2OpenClose : BOOL;
+END_VAR
+(*Optional manual TrackingFrame creation*)
+VAR
+	MC_BR_TrackingFrameCreate_0 : MC_BR_TrackingFrameCreate;
+	ManualCreationTrigger : BOOL;
+END_VAR

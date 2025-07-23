@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package Version="1.0.0" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Global data types">Global.typ</Object>
+    <Object Type="File" Description="Global variables">Global.var</Object>
+    <Object Type="Package" Description="Global libraries">Libraries</Object>
+    <Object Type="Program" Language="IEC" Description="Power, Home, Move " TransferedForTargetSourceCompare="true">MovePrg</Object>
+    <Object Type="Program" Language="IEC" Description="Optional: Parameter changes at runtime " TransferedForTargetSourceCompare="true">ParChange</Object>
+    <Object Type="Package" TransferedForTargetSourceCompare="true">CopyToUserPartition</Object>
+    <Object Type="File" Reference="true">\Temp\Simulation\Config1\5APC3100_KBU3_000\USER\ObjectHierarchy.scn</Object>
+  </Objects>
+</Package>

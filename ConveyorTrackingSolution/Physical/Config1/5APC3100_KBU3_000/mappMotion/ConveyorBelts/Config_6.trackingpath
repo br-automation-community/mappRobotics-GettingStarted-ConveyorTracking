@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="gTrkPath_Conveyor_1" Type="trackingpath">
+    <Selector ID="Type">
+      <Property ID="MaxTrackingFrames" Value="10000" />
+      <Selector ID="MotionSource" Value="Axis">
+        <Property ID="AxisRef" Value="gAxis_Conveyor_1" />
+      </Selector>
+      <Group ID="TrackingFrames">
+        <Group ID="AutomaticCreation">
+          <Selector ID="Condition[1]">
+            <Property ID="Distance" Value="150" />
+          </Selector>
+        </Group>
+        <Group ID="AutomaticDeletion">
+          <Selector ID="Condition[1]">
+            <Property ID="MinPosition" Value="0" />
+            <Property ID="MaxPosition" Value="3000" />
+          </Selector>
+          <Selector ID="Condition[2]" Value="AfterDesynchronization">
+            <Property ID="AxesGroupRef" Value="gAxesGroup_D4r1100R_1" />
+          </Selector>
+          <Selector ID="Condition[3]" Value="AfterDesynchronization">
+            <Property ID="AxesGroupRef" Value="gAxesGroup_D4r1100R_2" />
+          </Selector>
+        </Group>
+      </Group>
+    </Selector>
+    <Selector ID="SceneViewerObject">
+      <Selector ID="VisualRepresentation" Value="Conveyor belt">
+        <Group ID="Dimensions">
+          <Property ID="Length" Value="3000" />
+          <Property ID="Width" Value="200" />
+          <Property ID="Height" Value="50" />
+        </Group>
+        <Group ID="Translation">
+          <Property ID="Y" Value="-100" />
+          <Property ID="Z" Value="-50" />
+        </Group>
+        <Property ID="Material" Value="GreyMatte" />
+      </Selector>
+    </Selector>
+  </Element>
+  <Element ID="gTrkPath_Conveyor_2" Type="trackingpath">
+    <Selector ID="Type">
+      <Property ID="MaxTrackingFrames" Value="10000" />
+      <Selector ID="MotionSource" Value="Axis">
+        <Property ID="AxisRef" Value="gAxis_Conveyor_2" />
+      </Selector>
+      <Group ID="TrackingFrames">
+        <Group ID="AutomaticCreation">
+          <Selector ID="Condition[1]">
+            <Property ID="Distance" Value="150" />
+          </Selector>
+        </Group>
+        <Group ID="AutomaticDeletion">
+          <Selector ID="Condition[1]">
+            <Property ID="MinPosition" Value="0" />
+            <Property ID="MaxPosition" Value="3000" />
+          </Selector>
+          <Selector ID="Condition[2]" Value="AfterDesynchronization">
+            <Property ID="AxesGroupRef" Value="gAxesGroup_D4r1100R_1" />
+          </Selector>
+          <Selector ID="Condition[3]" Value="AfterDesynchronization">
+            <Property ID="AxesGroupRef" Value="gAxesGroup_D4r1100R_2" />
+          </Selector>
+        </Group>
+      </Group>
+    </Selector>
+    <Selector ID="SceneViewerObject">
+      <Selector ID="VisualRepresentation" Value="Conveyor belt">
+        <Group ID="Dimensions">
+          <Property ID="Length" Value="3000" />
+          <Property ID="Width" Value="200" />
+          <Property ID="Height" Value="50" />
+        </Group>
+        <Group ID="Translation">
+          <Property ID="Y" Value="-100" />
+          <Property ID="Z" Value="-50" />
+        </Group>
+        <Property ID="Material" Value="GreyMatte" />
+      </Selector>
+    </Selector>
+  </Element>
+</Configuration>

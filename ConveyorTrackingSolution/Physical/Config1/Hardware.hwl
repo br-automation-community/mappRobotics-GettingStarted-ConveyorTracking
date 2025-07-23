@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="Config1.Hardware.hw" LastWriteTime="07/16/2025 10:28:34" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="5APC3100_KBU3_000" Type="5APC3100.KBU3-000" X="115" Y="100" />
+    <Module Name="5AC901.IPLK-00" Type="5AC901.IPLK-00" X="120.8" Y="123" />
+    <Module Name="8EI2X2HWS10.xxxx-1-QC_D4r1100R_1" Type="8EI2X2HWS10.xxxx-1" X="264.099976" Y="429.1" />
+    <Module Name="8EI2X2HWS10.xxxx-1-QC_D4r1100R_2" Type="8EI2X2HWS10.xxxx-1" X="456.5" Y="429.1" />
+    <Module Name="8EI2X2HWT10.xxxx-1" Type="8EI2X2HWT10.xxxx-1" X="552.7" Y="429.1" />
+    <Module Name="8EI8X8HWT10.xxxx-1-Q1-Q2-Q3_D4r1100R_1" Type="8EI8X8HWT10.xxxx-1" X="167.9" Y="429.1" />
+    <Module Name="8EI8X8HWT10.xxxx-1-Q1-Q2-Q3_D4r1100R_2" Type="8EI8X8HWT10.xxxx-1" X="360.3" Y="429.1" />
+    <Module Name="8LSA44.DB060S200-3_Q1_D4r1100R_1" Type="MotorSynchronous_any" X="167.9" Y="740.9" />
+    <Module Name="8LSA44.DB060S200-3_Q1_D4r1100R_2" Type="MotorSynchronous_any" X="360.3" Y="740.9" />
+    <Module Name="8LSA44.DB060S200-3_Q2_D4r1100R_1" Type="MotorSynchronous_any" X="167.9" Y="908.5" />
+    <Module Name="8LSA44.DB060S200-3_Q2_D4r1100R_2" Type="MotorSynchronous_any" X="360.3" Y="908.5" />
+    <Module Name="8LSA44.DB060S200-3_Q3_D4r1100R_1" Type="MotorSynchronous_any" X="167.9" Y="1076.1" />
+    <Module Name="8LSA44.DB060S200-3_Q3_D4r1100R_2" Type="MotorSynchronous_any" X="360.3" Y="1076.1" />
+    <Module Name="8LSAA2.D9045S200-3_QC_D4r1100R_1" Type="MotorSynchronous_any" X="264.099976" Y="682.1" />
+    <Module Name="8LSAA2.D9045S200-3_QC_D4r1100R_2" Type="MotorSynchronous_any" X="456.5" Y="682.1" />
+  </Modules>
+  <Links>
+    <Link From="5AC901.IPLK-00" To="8EI8X8HWT10.xxxx-1-Q1-Q2-Q3_D4r1100R_1" FromPort="IF1" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="161.8" Y="131" />
+      <Point X="161.8" Y="131" />
+      <Point X="168.8" Y="131" />
+      <Point X="175.599991" Y="131" />
+      <Point X="175.599991" Y="428.6" />
+      <Point X="175.599991" Y="439.6" />
+      <Point X="175.599991" Y="439.6" />
+    </Link>
+    <Link From="8EI2X2HWS10.xxxx-1-QC_D4r1100R_1" To="8EI8X8HWT10.xxxx-1-Q1-Q2-Q3_D4r1100R_1" FromPort="PLK1" ToPort="PLK2" IsRoutedByUser="False">
+      <Point X="271.8" Y="439.6" />
+      <Point X="271.8" Y="439.6" />
+      <Point X="263.8" Y="439.6" />
+      <Point X="255" Y="439.6" />
+      <Point X="255" Y="415" />
+      <Point X="184" Y="415" />
+      <Point X="184" Y="428.6" />
+      <Point X="184" Y="439.6" />
+      <Point X="184" Y="439.6" />
+    </Link>
+    <Link From="8EI2X2HWS10.xxxx-1-QC_D4r1100R_1" To="8EI8X8HWT10.xxxx-1-Q1-Q2-Q3_D4r1100R_2" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="280.199982" Y="439.6" />
+      <Point X="280.199982" Y="439.6" />
+      <Point X="280.199982" Y="428.6" />
+      <Point X="280.199982" Y="415" />
+      <Point X="325" Y="415" />
+      <Point X="325" Y="439.6" />
+      <Point X="360" Y="439.6" />
+      <Point X="368" Y="439.6" />
+      <Point X="368" Y="439.6" />
+    </Link>
+    <Link From="8EI2X2HWS10.xxxx-1-QC_D4r1100R_1" To="8LSAA2.D9045S200-3_QC_D4r1100R_1" FromPort="MT1" ToPort="MT" IsRoutedByUser="False">
+      <Point X="290.699982" Y="477.400024" />
+      <Point X="290.699982" Y="477.400024" />
+      <Point X="310.699982" Y="477.400024" />
+      <Point X="325" Y="477.400024" />
+      <Point X="325" Y="645" />
+      <Point X="293.3" Y="645" />
+      <Point X="293.3" Y="681.8" />
+      <Point X="293.3" Y="686.8" />
+      <Point X="293.3" Y="686.8" />
+    </Link>
+    <Link From="8EI2X2HWS10.xxxx-1-QC_D4r1100R_2" To="8EI8X8HWT10.xxxx-1-Q1-Q2-Q3_D4r1100R_2" FromPort="PLK1" ToPort="PLK2" IsRoutedByUser="False">
+      <Point X="464.2" Y="439.6" />
+      <Point X="464.2" Y="439.6" />
+      <Point X="456.2" Y="439.6" />
+      <Point X="445" Y="439.6" />
+      <Point X="445" Y="415" />
+      <Point X="376.4" Y="415" />
+      <Point X="376.4" Y="428.6" />
+      <Point X="376.4" Y="439.6" />
+      <Point X="376.4" Y="439.6" />
+    </Link>
+    <Link From="8EI2X2HWS10.xxxx-1-QC_D4r1100R_2" To="8EI2X2HWT10.xxxx-1" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="472.6" Y="439.6" />
+      <Point X="472.6" Y="439.6" />
+      <Point X="472.6" Y="428.6" />
+      <Point X="472.6" Y="415" />
+      <Point X="515" Y="415" />
+      <Point X="515" Y="439.6" />
+      <Point X="552.4" Y="439.6" />
+      <Point X="560.4" Y="439.6" />
+      <Point X="560.4" Y="439.6" />
+    </Link>
+    <Link From="8EI2X2HWS10.xxxx-1-QC_D4r1100R_2" To="8LSAA2.D9045S200-3_QC_D4r1100R_2" FromPort="MT1" ToPort="MT" IsRoutedByUser="False">
+      <Point X="483.1" Y="477.400024" />
+      <Point X="483.1" Y="477.400024" />
+      <Point X="503.1" Y="477.400024" />
+      <Point X="515" Y="477.400024" />
+      <Point X="515" Y="645" />
+      <Point X="485.7" Y="645" />
+      <Point X="485.7" Y="681.8" />
+      <Point X="485.7" Y="686.8" />
+      <Point X="485.7" Y="686.8" />
+    </Link>
+    <Link From="8EI8X8HWT10.xxxx-1-Q1-Q2-Q3_D4r1100R_1" To="8LSA44.DB060S200-3_Q1_D4r1100R_1" FromPort="MT1" ToPort="MT" IsRoutedByUser="False">
+      <Point X="194.5" Y="575.4" />
+      <Point X="194.5" Y="575.4" />
+      <Point X="214.5" Y="575.4" />
+      <Point X="232" Y="575.4" />
+      <Point X="232" Y="705" />
+      <Point X="197.099991" Y="705" />
+      <Point X="197.099991" Y="740.600037" />
+      <Point X="197.099991" Y="745.600037" />
+      <Point X="197.099991" Y="745.600037" />
+    </Link>
+    <Link From="8EI8X8HWT10.xxxx-1-Q1-Q2-Q3_D4r1100R_1" To="8LSA44.DB060S200-3_Q2_D4r1100R_1" FromPort="MT2" ToPort="MT" IsRoutedByUser="False">
+      <Point X="194.5" Y="526.4" />
+      <Point X="194.5" Y="526.4" />
+      <Point X="214.5" Y="526.4" />
+      <Point X="239" Y="526.4" />
+      <Point X="239" Y="865" />
+      <Point X="197.099991" Y="865" />
+      <Point X="197.099991" Y="908.2" />
+      <Point X="197.099991" Y="913.2" />
+      <Point X="197.099991" Y="913.2" />
+    </Link>
+    <Link From="8EI8X8HWT10.xxxx-1-Q1-Q2-Q3_D4r1100R_1" To="8LSA44.DB060S200-3_Q3_D4r1100R_1" FromPort="MT3" ToPort="MT" IsRoutedByUser="False">
+      <Point X="194.5" Y="477.400024" />
+      <Point X="194.5" Y="477.400024" />
+      <Point X="214.5" Y="477.400024" />
+      <Point X="225" Y="477.400024" />
+      <Point X="225" Y="1035" />
+      <Point X="197.099991" Y="1035" />
+      <Point X="197.099991" Y="1075.79993" />
+      <Point X="197.099991" Y="1080.79993" />
+      <Point X="197.099991" Y="1080.79993" />
+    </Link>
+    <Link From="8EI8X8HWT10.xxxx-1-Q1-Q2-Q3_D4r1100R_2" To="8LSA44.DB060S200-3_Q1_D4r1100R_2" FromPort="MT1" ToPort="MT" IsRoutedByUser="False">
+      <Point X="386.9" Y="575.4" />
+      <Point X="386.9" Y="575.4" />
+      <Point X="406.9" Y="575.4" />
+      <Point X="422" Y="575.4" />
+      <Point X="422" Y="705" />
+      <Point X="389.5" Y="705" />
+      <Point X="389.5" Y="740.600037" />
+      <Point X="389.5" Y="745.600037" />
+      <Point X="389.5" Y="745.600037" />
+    </Link>
+    <Link From="8EI8X8HWT10.xxxx-1-Q1-Q2-Q3_D4r1100R_2" To="8LSA44.DB060S200-3_Q2_D4r1100R_2" FromPort="MT2" ToPort="MT" IsRoutedByUser="False">
+      <Point X="386.9" Y="526.4" />
+      <Point X="386.9" Y="526.4" />
+      <Point X="406.9" Y="526.4" />
+      <Point X="429" Y="526.4" />
+      <Point X="429" Y="865" />
+      <Point X="389.5" Y="865" />
+      <Point X="389.5" Y="908.2" />
+      <Point X="389.5" Y="913.2" />
+      <Point X="389.5" Y="913.2" />
+    </Link>
+    <Link From="8EI8X8HWT10.xxxx-1-Q1-Q2-Q3_D4r1100R_2" To="8LSA44.DB060S200-3_Q3_D4r1100R_2" FromPort="MT3" ToPort="MT" IsRoutedByUser="False">
+      <Point X="386.9" Y="477.400024" />
+      <Point X="386.9" Y="477.400024" />
+      <Point X="406.9" Y="477.400024" />
+      <Point X="415" Y="477.400024" />
+      <Point X="415" Y="1035" />
+      <Point X="389.5" Y="1035" />
+      <Point X="389.5" Y="1075.79993" />
+      <Point X="389.5" Y="1080.79993" />
+      <Point X="389.5" Y="1080.79993" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>

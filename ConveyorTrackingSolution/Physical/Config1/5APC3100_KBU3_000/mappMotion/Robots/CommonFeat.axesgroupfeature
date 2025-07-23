@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="Feature_FeedForward_D4r1100R_X" Type="axesgroupfeature">
+    <Selector ID="Type" Value="FeedForward">
+      <Property ID="RiseTime" Value="0.25" />
+      <Selector ID="Filter" Value="AxisJerkTime" />
+    </Selector>
+  </Element>
+  <Element ID="Feature_Jogging_D4r1100R_X" Type="axesgroupfeature">
+    <Selector ID="Type" Value="Jogging" />
+  </Element>
+  <Element ID="Feature_Tracking_D4r1100R_X" Type="axesgroupfeature">
+    <Selector ID="Type" Value="Tracking">
+      <Group ID="MotionBehaviour">
+        <Selector ID="OutOfWorkspaceSynchronisation">
+          <Property ID="Clearance" Value="50" />
+        </Selector>
+      </Group>
+    </Selector>
+  </Element>
+  <Element ID="Feature_PathDefinitions_D4r1100R_X" Type="axesgroupfeature">
+    <Selector ID="Type" Value="PathDefinitions">
+      <Group ID="PathDefinition[1]">
+        <Selector ID="Type">
+          <Selector ID="CalculatedIn" Value="PCS" />
+        </Selector>
+      </Group>
+    </Selector>
+  </Element>
+  <Element ID="Feature_TrkFrmSel_D4r1100R_X" Type="axesgroupfeature">
+    <Selector ID="Type" Value="TrackingFrameSelection">
+      <Group ID="Selectors">
+        <Selector ID="Selector[1]">
+          <Property ID="Name" Value="PickPositionSelector" />
+          <Group ID="Filters">
+            <Selector ID="Filter[1]">
+              <Property ID="TrackingPathRef[1]" Value="gTrkPath_Conveyor_1" />
+            </Selector>
+            <Selector ID="Filter[2]" Value="SelectionArea">
+              <Selector ID="Area[1]" Value="Cylinder">
+                <Group ID="Translation">
+                  <Property ID="X" Value="-500" />
+                  <Property ID="Z" Value="-992.6" />
+                </Group>
+                <Group ID="Dimensions">
+                  <Property ID="Radius" Value="500" />
+                  <Property ID="Height" Value="250" />
+                </Group>
+              </Selector>
+            </Selector>
+          </Group>
+          <Selector ID="LockingAfterSelection" Value="AllSelectors" />
+        </Selector>
+        <Selector ID="Selector[2]">
+          <Property ID="Name" Value="PlacePositionSelector" />
+          <Group ID="Filters">
+            <Selector ID="Filter[1]">
+              <Property ID="TrackingPathRef[1]" Value="gTrkPath_Conveyor_2" />
+            </Selector>
+            <Selector ID="Filter[2]" Value="SelectionArea">
+              <Selector ID="Area[1]" Value="Cylinder">
+                <Group ID="Translation">
+                  <Property ID="X" Value="-500" />
+                  <Property ID="Z" Value="-992.6" />
+                </Group>
+                <Group ID="Dimensions">
+                  <Property ID="Radius" Value="500" />
+                  <Property ID="Height" Value="250" />
+                </Group>
+              </Selector>
+            </Selector>
+          </Group>
+          <Selector ID="LockingAfterSelection" Value="AllSelectors" />
+        </Selector>
+      </Group>
+    </Selector>
+  </Element>
+</Configuration>
